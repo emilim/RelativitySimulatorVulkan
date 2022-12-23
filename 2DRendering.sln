@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32811.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VulkanFirstTry", "VulkanFirstTry\VulkanFirstTry.vcxproj", "{4120F2A9-6A60-4BB1-8760-A787A47E6997}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "shaders", "shaders", "{37FA04EB-7286-45C3-B722-6E024916609B}"
+	ProjectSection(SolutionItems) = preProject
+		simple_shader.frag = simple_shader.frag
+		simple_shader.frag.spv = simple_shader.frag.spv
+		simple_shader.vert = simple_shader.vert
+		simple_shader.vert.spv = simple_shader.vert.spv
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{30765FF5-9233-4E50-99A5-5720C4CB4FAF}"
+	ProjectSection(SolutionItems) = preProject
+		compiler.bat = compiler.bat
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4120F2A9-6A60-4BB1-8760-A787A47E6997}.Debug|x64.ActiveCfg = Debug|x64
+		{4120F2A9-6A60-4BB1-8760-A787A47E6997}.Debug|x64.Build.0 = Debug|x64
+		{4120F2A9-6A60-4BB1-8760-A787A47E6997}.Debug|x86.ActiveCfg = Debug|Win32
+		{4120F2A9-6A60-4BB1-8760-A787A47E6997}.Debug|x86.Build.0 = Debug|Win32
+		{4120F2A9-6A60-4BB1-8760-A787A47E6997}.Release|x64.ActiveCfg = Release|x64
+		{4120F2A9-6A60-4BB1-8760-A787A47E6997}.Release|x64.Build.0 = Release|x64
+		{4120F2A9-6A60-4BB1-8760-A787A47E6997}.Release|x86.ActiveCfg = Release|Win32
+		{4120F2A9-6A60-4BB1-8760-A787A47E6997}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {65576511-5D8A-4B6C-BAA6-4B254FE5B05A}
+	EndGlobalSection
+EndGlobal
